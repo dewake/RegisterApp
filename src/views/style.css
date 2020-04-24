@@ -1,0 +1,20 @@
+ 
+.button{
+    -fx-font: "Arial";
+    -fx-background-color: #9999ff
+}
+#btnRegister{
+   -fx-background-color: linear-gradient(red, white);
+    -fx-effect: dropshadow( three-pass-box , rgba(180,120,120,0.6) , 5, 0.0 , 0 , 1 );
+}
+#btnRegister:hover{
+   -fx-background-color: linear-gradient(white,red);
+    
+}
+
+#AnchorPane {
+   
+     -fx-background-color: linear-gradient(#F3F5F4, #D9E8F0);
+	 
+}
+

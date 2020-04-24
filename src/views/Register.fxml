@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="controllers.RegisterController">
+    <stylesheets>
+        <URL value="@style.css" />
+    </stylesheets>
+   <children>
+      <Label fx:id="lblMessage" layoutX="204.0" layoutY="250.0" prefHeight="21.0" prefWidth="271.0" textFill="#ff1111" />
+      <Label layoutX="118.0" layoutY="157.0" text="Password" />
+      <Label layoutX="110.0" layoutY="96.0" text="Username" />
+      <PasswordField fx:id="txtPassword" layoutX="204.0" layoutY="152.0" prefHeight="31.0" prefWidth="271.0" promptText="Enter Password" />
+      <TextField fx:id="txtUsername" layoutX="204.0" layoutY="96.0" prefHeight="31.0" prefWidth="271.0" promptText="Enter Username" />
+      <Button fx:id="btnRegister" layoutX="421.0" layoutY="288.0" mnemonicParsing="false" onAction="#handleRegister" text="Register" />
+      <Button fx:id="btnLogin" layoutX="90.0" layoutY="288.0" mnemonicParsing="false" onAction="#handleLogin" text="Login" />
+      <TextField fx:id="txtMobile" layoutX="204.0" layoutY="200.0" prefHeight="31.0" prefWidth="271.0" promptText="Enter Mobile" />
+      <Label layoutX="110.0" layoutY="205.0" text="Mobile" />
+   </children>
+</AnchorPane>
